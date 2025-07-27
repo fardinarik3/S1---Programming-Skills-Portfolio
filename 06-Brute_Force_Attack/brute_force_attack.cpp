@@ -1,4 +1,4 @@
-// Brute Force Attack Simulation in C++
+
 #include <iostream>
 #include <string>
 using namespace std;
