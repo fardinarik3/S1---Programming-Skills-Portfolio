@@ -9,6 +9,10 @@ How it works:
 - The function returns a message stating whether the number is even or odd.
 - The returned message is printed by the 'main' function.
 
+File Included:
+--------------
+- even_odd_checker.cpp: The source code file.
+
 How to Compile and Run:
 1. Save the code as is_it_even.cpp
 2. Compile: g++ is_it_even.cpp -o is_it_even
