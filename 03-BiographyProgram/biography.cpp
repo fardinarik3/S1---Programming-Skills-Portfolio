@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <limits> // for input validation
+#include <limits> 
 
 using namespace std;
 
@@ -9,21 +9,21 @@ int main() {
     string hometown;
     int age;
 
-    // Ask for user input
+    
     cout << "Enter your full name: ";
-    getline(cin, name);  // Allows full name with spaces
+    getline(cin, name);  
 
     cout << "Enter your hometown: ";
-    getline(cin, hometown);  // Allows towns with spaces
+    getline(cin, hometown);  
 
     cout << "Enter your age: ";
     while (!(cin >> age)) {
         cout << "Invalid input. Please enter a number for age: ";
-        cin.clear(); // clear the error flag
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
+        cin.clear(); 
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
     }
 
-    // Final output with a single cout
+    
     cout << "Name: " << name << "\nHometown: " << hometown << "\nAge: " << age << endl;
 
     return 0;
