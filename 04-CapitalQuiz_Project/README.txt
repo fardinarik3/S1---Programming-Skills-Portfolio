@@ -1,6 +1,9 @@
 European Capital Cities Quiz
 ----------------------------
-This C++ program asks 10 European capital city questions.  
-Answers are not case-sensitive, and each correct one gives 3 marks.  
-Total score is out of 30.  
-Run the program in any C++ environment to start the quiz.
+This C++ application tests your knowledge of ten major cities in Europe.
+Three points are awarded for each right response, with a maximum score of 30.
+
+File: capital_quiz.cpp 
+
+To run: compile with g++ capital_quiz.cpp -o quiz, then run it.
+It compares your answers case-insensitively and shows your final score.
