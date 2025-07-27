@@ -1,8 +1,12 @@
-
 Simple Search Program - C++
 
-This program demonstrates a simple search in a string array.
-It searches for a name within a predefined list of names.
+This C++ program searches for a specific name in a fixed list of names using a simple linear search.
+
+What the Program Does:
+----------------------
+- Prompts the user to enter a name.
+- Checks if the name exists in a predefined array of names: Jake, Zac, Ian, Ron, Sam, Dave.
+- Displays whether the name was found or not.
 
 How to Compile and Run:
 1. Save the source code as simple_search.cpp
